@@ -16,7 +16,7 @@ npm install
 gulp
 ```
 
-http://localhost:3000/html/view/_example/
+[http://localhost:3000/html/view/_example/](http://localhost:3000/html/view/_example/)
 
 
 
