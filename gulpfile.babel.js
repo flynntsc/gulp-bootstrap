@@ -53,16 +53,15 @@ export function views() {
 // Sass
 export function sass() {
     return gulp.src(Paths.styles.sass)
+        .pipe(Pi.changed(Paths.styles.dest))
         .pipe(Pi.sass({
             outputStyle: 'expanded',
             // onerror?
         }).on('error', Pi.sass.logError))
-        .pipe(Pi.changed(Paths.styles.dest))
         .pipe(Pi.autoprefixer({
             browsers: ['> 1%', 'IE 7'],
             cascade: false,
         }))
-        .pipe(Pi.changed(Paths.styles.dest))
         .pipe(gulp.dest(Paths.styles.dest))
         .pipe(Pi.cleanCss())
         .pipe(Pi.rename(path => path.basename += '.min'))
