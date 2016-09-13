@@ -1,54 +1,54 @@
 {
-    "name": "gulp-bootstrap",
-    "version": "1.0.0",
-    "description": "``` npm init",
-    "main": "gulpfile.babel.js",
-    "scripts": {
-        "dev": "nodemon --watch gulpfile.babel.js --exec gulp",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/flynntsc/gulp-bootstrap.git"
-    },
-    "author": "Flyn Tse",
-    "license": "ISC",
-    "babel": {
-        "presets": [
-            "es2015",
-            "stage-3"
-        ],
-        "plugins": [
-            "transform-es2015-modules-umd",
-            "add-module-exports"
-        ]
-    },
-    "bugs": {
-        "url": "https://github.com/flynntsc/gulp-bootstrap/issues"
-    },
-    "homepage": "https://github.com/flynntsc/gulp-bootstrap#readme",
-    "devDependencies": {
-        "babel-plugin-add-module-exports": "^0.2.1",
-        "babel-plugin-transform-es2015-modules-umd": "^6.12.0",
-        "babel-preset-es2015": "^6.14.0",
-        "babel-preset-stage-3": "^6.11.0",
-        "babel-register": "^6.14.0",
-        "browser-sync": "^2.15.0",
-        "del": "^2.2.2",
-        "gulp": "github:gulpjs/gulp#4.0",
-        "gulp-autoprefixer": "^3.1.1",
-        "gulp-babel": "^6.1.2",
-        "gulp-changed": "^1.3.2",
-        "gulp-clean-css": "^2.0.12",
-        "gulp-concat": "^2.6.0",
-        "gulp-html-extend": "^1.1.6",
-        "gulp-imagemin": "^3.0.3",
-        "gulp-load-plugins": "^1.2.0",
-        "gulp-plumber": "^1.1.0",
-        "gulp-rename": "^1.2.2",
-        "gulp-sass": "^2.3.2",
-        "gulp-sourcemaps": "^1.6.0",
-        "gulp-uglify": "^2.0.0",
-        "gulp-usemin": "^0.3.24"
-    }
+  "name": "gulp-bootstrap",
+  "version": "1.0.0",
+  "description": "``` npm init",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "dev": "nodemon --watch gulpfile.babel.js --exec gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flynntsc/gulp-bootstrap.git"
+  },
+  "author": "Flyn Tse",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-3"
+    ],
+    "plugins": [
+      "transform-es2015-modules-umd",
+      "add-module-exports"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/flynntsc/gulp-bootstrap/issues"
+  },
+  "homepage": "https://github.com/flynntsc/gulp-bootstrap#readme",
+  "devDependencies": {
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-es2015-modules-umd": "^6.12.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-3": "^6.11.0",
+    "babel-register": "^6.14.0",
+    "browser-sync": "^2.15.0",
+    "del": "^2.2.2",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-changed": "^1.3.2",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-concat": "^2.6.0",
+    "gulp-html-extend": "^1.1.6",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-load-plugins": "^1.3.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-usemin": "^0.3.24"
+  }
 }
