@@ -6,6 +6,8 @@ gulp v4+ (Must be installing git)
 
 
 ```
+npm i -g babel-cli gulp-cli
+
 npm install
 ```
 
